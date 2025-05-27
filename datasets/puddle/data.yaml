@@ -1,0 +1,7 @@
+names:
+- puddle
+nc: 1
+path: datasets/puddle
+test: images/train
+train: images/train
+val: images/train

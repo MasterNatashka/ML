@@ -1,0 +1,7 @@
+names:
+- puddle
+nc: 1
+path: C:\Users\Natashka\Desktop\yolo-annotations\yolo_dataset
+test: ../test/images
+train: C:\Users\Natashka\Desktop\yolo-annotations\yolo_dataset\images\train
+val: C:\Users\Natashka\Desktop\yolo-annotations\yolo_dataset\images\train
