@@ -1,10 +1,12 @@
-# Работа с git в VSCode
+# Тренировка модели YOLO
+
+## Работа с git в VSCode
 
 https://www.youtube.com/watch?v=bfJQDEXzoT0
 
-# Запуск YOLO на видеокарте (Windows)
+## Запуск YOLO на видеокарте (Windows)
 
-## Драйверы Nvidia
+### Драйверы Nvidia
 
 Проверить версию драйвера консольной командой nvidia-smi, будет выведена версия драйвера
 и максимальная поддерживаемая версия CUDA:
@@ -24,7 +26,7 @@ https://www.nvidia.com/en-eu/geforce/drivers/
 Опционально, если драйвер уже установлен, можно обновить до последней версии
 из приложения Nvidia или скачав установочный файл по ссылке выше.
 
-## Виртуальное окружение
+### Виртуальное окружение
 
 Создать виртуальное окружение:
 
@@ -34,7 +36,7 @@ https://www.nvidia.com/en-eu/geforce/drivers/
 
 `.\venv-train\Scripts\activate.bat`
 
-## Автоматическая установка PyTorch с CUDA
+### Автоматическая установка PyTorch с CUDA
 
 Установить PyTorch сконфигурировов команду, скопировав и запустив её в терминале:
 
@@ -51,16 +53,16 @@ https://pytorch.org/get-started/locally/
 
 `pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128`
 
-## Установка ultralytics
+### Установка ultralytics
 
 Утановить пакет для работы с YOLO:
 
 `pip install ultralytics`
 
 
-# Аннотирование изображений
+## Аннотирование изображений
 
-## Отдельное виртуальное окружение
+### Отдельное виртуальное окружение
 
 Деактивировать виртуальное окружение, если необходимо:
 
@@ -74,13 +76,13 @@ https://pytorch.org/get-started/locally/
 
 `.\venv-annotate\Scripts\activate.bat`
 
-## Установка программы для аннотирования
+### Установка программы для аннотирования
 
 Утановить программу командой:
 
 `pip install digitalsreeni-image-annotator`
 
-## Работа с программой
+### Работа с программой
 
 https://www.youtube.com/watch?v=BupyYUw2boI
 
