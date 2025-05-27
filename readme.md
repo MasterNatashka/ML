@@ -1,3 +1,7 @@
+# Работа с git в VSCode
+
+https://www.youtube.com/watch?v=bfJQDEXzoT0
+
 # Запуск YOLO на видеокарте (Windows)
 
 ## Драйверы Nvidia
