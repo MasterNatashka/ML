@@ -1,0 +1,219 @@
+{
+  "classes": [
+    {
+      "name": "puddle",
+      "color": "#ff0000"
+    }
+  ],
+  "images": [
+    {
+      "file_name": "-_-_00_jpg.rf.3aab4ca7b6ff5682174940c168c4b3d5.jpg",
+      "width": 416,
+      "height": 416,
+      "is_multi_slice": false,
+      "annotations": {
+        "puddle": [
+          {
+            "segmentation": [
+              70,
+              129,
+              119,
+              86,
+              224,
+              70,
+              271,
+              74,
+              351,
+              114,
+              377,
+              163,
+              389,
+              227,
+              365,
+              276,
+              329,
+              307,
+              249,
+              317,
+              80,
+              282,
+              39,
+              211
+            ],
+            "category_id": 1,
+            "category_name": "puddle",
+            "number": 1
+          }
+        ]
+      }
+    },
+    {
+      "file_name": "-_jpg.rf.696814fcb867f5683d791cc99beb009f.jpg",
+      "width": 416,
+      "height": 416,
+      "is_multi_slice": false,
+      "annotations": {
+        "puddle": [
+          {
+            "segmentation": [
+              32,
+              169,
+              98,
+              122,
+              178,
+              101,
+              242,
+              99,
+              306,
+              127,
+              375,
+              185,
+              411,
+              236,
+              405,
+              279,
+              353,
+              339,
+              248,
+              365,
+              130,
+              360,
+              71,
+              322,
+              24,
+              253,
+              19,
+              219
+            ],
+            "category_id": 1,
+            "category_name": "puddle",
+            "number": 1
+          }
+        ]
+      }
+    },
+    {
+      "file_name": "-2_PNG.rf.456ced951246a77890e90cb41dc6087c.jpg",
+      "width": 416,
+      "height": 416,
+      "is_multi_slice": false,
+      "annotations": {
+        "puddle": [
+          {
+            "segmentation": [
+              244,
+              112,
+              300,
+              168,
+              325,
+              228,
+              294,
+              270,
+              284,
+              263,
+              236,
+              280,
+              201,
+              258,
+              169,
+              209,
+              61,
+              207,
+              126,
+              127,
+              192,
+              171
+            ],
+            "category_id": 1,
+            "category_name": "puddle",
+            "number": 1
+          }
+        ]
+      }
+    },
+    {
+      "file_name": "-4_PNG.rf.0b46fb72eb323d1007b141494f0d371d.jpg",
+      "width": 416,
+      "height": 416,
+      "is_multi_slice": false,
+      "annotations": {
+        "puddle": [
+          {
+            "segmentation": [
+              162,
+              201,
+              173,
+              200,
+              205,
+              205,
+              226,
+              196,
+              260,
+              206,
+              250,
+              241,
+              202,
+              241,
+              148,
+              206
+            ],
+            "category_id": 1,
+            "category_name": "puddle",
+            "number": 1
+          }
+        ]
+      }
+    },
+    {
+      "file_name": "5_PNG.rf.7c940c5b495b7067d90697265c650ec5.jpg",
+      "width": 416,
+      "height": 416,
+      "is_multi_slice": false,
+      "annotations": {
+        "puddle": [
+          {
+            "segmentation": [
+              120,
+              201,
+              173,
+              200,
+              195,
+              209,
+              250,
+              191,
+              303,
+              208,
+              280,
+              229,
+              279,
+              244,
+              292,
+              258,
+              275,
+              275,
+              204,
+              274,
+              151,
+              254,
+              126,
+              225
+            ],
+            "category_id": 1,
+            "category_name": "puddle",
+            "number": 1
+          }
+        ]
+      }
+    }
+  ],
+  "image_paths": {
+    "-_-_00_jpg.rf.3aab4ca7b6ff5682174940c168c4b3d5.jpg": "C:/Users/Natashka/Desktop/yolo-101/annotations/puddle\\images\\-_-_00_jpg.rf.3aab4ca7b6ff5682174940c168c4b3d5.jpg",
+    "-_jpg.rf.696814fcb867f5683d791cc99beb009f.jpg": "C:/Users/Natashka/Desktop/yolo-101/annotations/puddle\\images\\-_jpg.rf.696814fcb867f5683d791cc99beb009f.jpg",
+    "-2_PNG.rf.456ced951246a77890e90cb41dc6087c.jpg": "C:/Users/Natashka/Desktop/yolo-101/annotations/puddle\\images\\-2_PNG.rf.456ced951246a77890e90cb41dc6087c.jpg",
+    "-4_PNG.rf.0b46fb72eb323d1007b141494f0d371d.jpg": "C:/Users/Natashka/Desktop/yolo-101/annotations/puddle\\images\\-4_PNG.rf.0b46fb72eb323d1007b141494f0d371d.jpg",
+    "5_PNG.rf.7c940c5b495b7067d90697265c650ec5.jpg": "C:/Users/Natashka/Desktop/yolo-101/annotations/puddle\\images\\5_PNG.rf.7c940c5b495b7067d90697265c650ec5.jpg"
+  },
+  "notes": "",
+  "creation_date": "2025-05-27 07:39:07",
+  "last_modified": "2025-05-27T07:49:17.091109"
+}

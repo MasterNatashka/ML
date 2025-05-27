@@ -13,11 +13,13 @@ https://www.nvidia.com/en-eu/geforce/drivers/
 Опционально, если драйвер уже установлен, можно обновить до последней версии
 из приложения Nvidia или скачав установочный файл по ссылке выше.
 
-## Автоматическая установка PyTorch с CUDA
+## Виртуальное окружение
 Создать виртуальное окружение:
-`python -m venv myenv`
+`python -m venv venv-train`
 Активировать окружение:
-`.\myenv\Scripts\activate.bat`
+`.\venv-train\Scripts\activate.bat`
+
+## Автоматическая установка PyTorch с CUDA
 Установить PyTorch сконфигурировов команду, скопировав и запустив её в терминале:
 https://pytorch.org/get-started/locally/
 Выбрать опции установки:
@@ -27,11 +29,36 @@ https://pytorch.org/get-started/locally/
 - Language: Python
 - Compute platform: CUDA более высокой версии
 Пример команды установки:
-`pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128`
+`pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128`
 
 ## Установка ultralytics
 Утановить пакет для работы с YOLO:
 `pip install ultralytics`
+
+
+
+
+# Аннотирование изображений
+
+## Отдельное виртуальное окружение
+Деактивировать виртуальное окружение, если необходимо:
+`<папка_текущего_окружения>\Scripts\deactivate.bat`
+Создать и активировать новое виртуальное окружение:
+`python -m venv venv-annotate`
+Активировать окружение:
+`.\venv-annotate\Scripts\activate.bat`
+
+## Установка программы для аннотирования
+Утановить программу командой:
+`pip install digitalsreeni-image-annotator`
+
+## Видео по работе с программой
+https://www.youtube.com/watch?v=BupyYUw2boI
+1. Создать проект в директории `annotations\<название_проекта>\<название_проекта>.iap`
+2. Добавить классы для аннотирования
+3. Добавить изображения
+4. Аннотировать изображения
+5. Выгрузить датасет в формате YOLO: меню _YOLO (beta) > Training > Prepare YOLO Dataset_
 
 
 <!-- 
