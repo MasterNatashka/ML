@@ -7,18 +7,18 @@ from ultralytics import YOLO
 # Предотвращение ошибки многопоточной обработки
 if __name__ == "__main__":
     # Инициализация предобученной модели
-    model = YOLO("./weights/yolov8n.pt")
+    model = YOLO("./weights/yolov8m.pt")
     # Тренировка на подготовленном наборе данных
     model.train(
         data="./datasets/puddle/data.yaml",
         # Имя тренировочного прогона. Результаты будут сохранены в папке
         name="puddle",
         # Количество эпох обучения https://www.ultralytics.com/ru/glossary/epoch
-        epochs=5,
+        epochs=100,
         # При выставлении больших значений batch и workers
         # могут возникать ошибки из-за нехватки памяти GPU
         # Размер партии https://www.ultralytics.com/ru/glossary/batch-size
-        batch=50,
+        batch=4,
         # Количество рабочих потоков для загрузки данных
         workers=1,
         # Целевой размер изображения для обучения

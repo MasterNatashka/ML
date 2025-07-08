@@ -82,6 +82,10 @@ https://pytorch.org/get-started/locally/
 
 `pip install digitalsreeni-image-annotator`
 
+Запуск выполняется командой:
+
+`digitalsreeni-image-annotator`
+
 ### Работа с программой
 
 https://www.youtube.com/watch?v=BupyYUw2boI
